@@ -6,6 +6,9 @@ int main()
 	InitSeqListD(&p);
 
 	PushBack(&p, 1);
+
+
+
 	PushBack(&p, 2);
 	PushBack(&p, 3);
 	PushBack(&p, 4);
