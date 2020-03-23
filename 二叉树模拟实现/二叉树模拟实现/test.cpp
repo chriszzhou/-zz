@@ -269,6 +269,7 @@ public:
 		Node* tem = _Find(root->_right, x);
 		if (tem)
 			return tem;
+		return NULL;
 	}
 
 private:
@@ -281,6 +282,8 @@ void TestTree()
 	t.PrevOrder();
 	t.PostOrder();
 	t.GetKLevel(1);
+	cout << t.Find(44) << endl;
+	cout << t.Find(4) << endl;
 }
 int main() {
 	TestTree();
